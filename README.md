@@ -1,9 +1,6 @@
 sbt-rjs
 =======
 
-[![Build Status](https://api.travis-ci.org/danielnixon/sbt-rjs.svg?branch=master)](https://travis-ci.org/danielnixon/sbt-rjs)
-[![Maven Central](https://maven-badges.herokuapp.com/maven-central/org.danielnixon/sbt-rjs/badge.svg)](https://maven-badges.herokuapp.com/maven-central/org.danielnixon/sbt-rjs)
-
 A fork of the seemingly abandoned [sbt-rjs](https://github.com/sbt/sbt-rjs) plugin.
 
 Setup
@@ -13,7 +10,7 @@ An SBT plugin to perform [RequireJs optimization](http://requirejs.org/docs/opti
 
 To use this plugin use the addSbtPlugin command within your project's `plugins.sbt` file:
 
-    addSbtPlugin("org.danielnixon" % "sbt-rjs" % "1.0.9")
+    addSbtPlugin("com.bmdsoftware" % "sbt-rjs" % "1.0.9")
 
 Your project's build file also needs to enable sbt-web plugins. For example with build.sbt:
 
