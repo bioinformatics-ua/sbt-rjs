@@ -1,0 +1,8 @@
+# Optimize RequireJs files.
+
+> web-stage
+$ exists target/web/stage/javascripts/main.js
+$ exists target/web/stage/javascripts/main.js.map
+
+> checkCdn
+
